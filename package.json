@@ -7,9 +7,8 @@
         "test": "echo \"No test specified\" && exit 1",
         "start": "node index.js"
     },
-
     "repository": {
-                "type": "git",
+        "type": "git",
         "url": "git+https://github.com/ykristing/Personal-Webpage.git"
     },
     "author": "",
@@ -17,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/ykristing/Personal-Webpage/issues"
     },
-   "homepage": "https://github.com/ykristing/Personal-Webpage#readme"
+    "homepage": "https://github.com/ykristing/Personal-Webpage#readme",
+    "dependencies": {
+        "install": "^0.13.0"
+    }
 }
