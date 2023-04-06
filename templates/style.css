@@ -1,0 +1,116 @@
+/* Set the background color and font family */
+body {
+    background-color: #fcf4f8;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas:
+        "space main"
+        "nav main"
+        "footer footer";
+    overflow: hidden;
+    margin: 0;
+	padding: 0;
+}
+
+/* Add a centered header with coral text */
+h1 {
+    text-align: left;
+    color: #a01e43;
+    margin-top: 10px;
+    line-height: 80px;
+    padding-left: 10px;
+    font-size: 45px;
+    border-bottom: 5px solid #f39ca2;
+}
+
+/* Add a centered paragraph with black text */
+p {
+    text-align: left;
+    color: #8a042a;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/* Style the navigation menu */
+nav {
+    /*background-color: #c05776;*/
+    background-image: url('navbg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed; /* make the menu position fixed */
+    left: 0; /* align the menu to the left side of the screen */
+    top: 0; /* align the menu to the top of the screen */
+}
+
+/* Style the links in the navigation menu */
+nav a {
+    color: #ffffff;
+    text-shadow: 1.5px 1.5px 1px #b15c63;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(234, 212, 212, .8);
+}
+
+/* Add a hover effect to the links in the navigation menu */
+nav a:hover {
+    color: #a01e43;
+}
+
+/* Add a centered main content area */
+main {
+    padding: 25px;
+    margin-left: 10px;
+    grid-area: main;
+}
+
+/* Add a centered footer with black text */
+footer {
+    text-align: center;
+    color: #3d0213;
+    margin-top: 0;
+    grid-area: footer;
+    line-height: 80px;
+}
+
+.duck {
+    position: absolute;
+    top: calc(100vh - 63px);
+    left: 0;
+    animation: duck-run 40s linear infinite;
+    transform: scaleX(-1);
+    height: 80px;
+    width: 80px;
+    transition: transform 0.5s;
+}
+
+@keyframes duck-run {
+    0% {
+        left: 0;
+        transform: scaleX(1);
+    }
+    50% {
+        left: calc(100vw - 100px);
+        transform: scaleX(1);
+    }
+    51% {
+        transform: scaleX(-1);
+    }
+    100% {
+        left: 0;
+        transform: scaleX(-1);
+    }
+}
