@@ -23,6 +23,14 @@ app.get("/about", (request, response) => {
     response.render("about");
 });
 
+app.get("/interests", (request, response) => {
+  response.render("about");
+});
+
+app.get("/contact", (request, response) => {
+  response.render("about");
+});
+
 // Start the server
 app.listen(3000, function() {
   console.log('Server is listening on port 3000');

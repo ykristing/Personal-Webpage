@@ -1,6 +1,6 @@
 /* Set the background color and font family */
 body {
-    background-color: #fcf4f8;
+    background-color: #faeded;
     font-family: 'Lato', sans-serif;
     display: grid;
     grid-template-columns: 1fr 9fr;
@@ -22,6 +22,16 @@ h1 {
     line-height: 80px;
     padding-left: 10px;
     font-size: 45px;
+    border-bottom: 5px solid #f39ca2;
+}
+
+h2 {
+    text-align: left;
+    color: #a01e43;
+    margin-top: 10px;
+    line-height: 80px;
+    padding-left: 10px;
+    font-size: 30px;
     border-bottom: 5px solid #f39ca2;
 }
 
@@ -90,11 +100,11 @@ footer {
     position: absolute;
     top: calc(100vh - 63px);
     left: 0;
-    animation: duck-run 40s linear infinite;
+    animation: duck-run 20s linear infinite;
     transform: scaleX(-1);
     height: 80px;
     width: 80px;
-    transition: transform 0.5s;
+    transition: transform 0.01s;
 }
 
 @keyframes duck-run {
