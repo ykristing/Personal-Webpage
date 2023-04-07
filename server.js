@@ -19,16 +19,12 @@ app.get('/', function(req, res) {
   res.render('main.ejs');
 });
 
-app.get("/about", (request, response) => {
-    response.render("about");
-});
-
 app.get("/interests", (request, response) => {
-  response.render("about");
+  response.render("interests");
 });
 
 app.get("/contact", (request, response) => {
-  response.render("about");
+  response.render("contact");
 });
 
 // Start the server

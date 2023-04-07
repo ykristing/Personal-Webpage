@@ -13,7 +13,13 @@
     </head>
     <body>
 
-        <%- include('nav') %>
+        <!-- <%- include('nav') %> -->
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
         
         <main>
             <header>
@@ -23,13 +29,38 @@
                 
             </header>
             <p>Hi, welcome to my webpage!</p>
+            <br>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I'm currently a senior majoring in Computer Science and minoring in Statistics 
+                    at the University of Maryland, graduating in May 2023! 
+                    Last summer and fall, I had the opportunity to work as a product management intern at EqualLevel, a company that provides 
+                    e-procurement solutions for public sector organizations.
+
+                </p>
+                <p>I'm currently looking for roles in software engineering, data science, and product management. I am especially interested in front-end development.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                
+            </section>
+
+            <section id="interests">
+                <h2>Interests</h2>
+                
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+            </section>
+
+            <script src="smooth-scroll.js"></script>
         </main>
         
         
-        <img src="duckPink.gif" class="duck" alt="waling duck">
+        
 
-        <footer>
-            <p>&copy; Footer </p>
-        </footer>
     </body>
+    <img src="duckPink.gif" class="duck" alt="waddling duck">
 </html>
