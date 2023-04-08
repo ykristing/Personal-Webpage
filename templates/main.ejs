@@ -9,17 +9,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-        
+        <script src="https://kit.fontawesome.com/f277ce679b.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
         <!-- <%- include('nav') %> -->
+        
         <nav>
             <a href="/#about">About Me</a>
             <a href="/#experience">Experience</a>
-            <a href="/#interests">Interests</a>
+            <a href="/#project">Projects</a>
             <a href="/#contact">Contact</a>
-        </nav>
+        </nav> 
+  
         
         <main>
             <header>
@@ -44,82 +46,98 @@
 
             <section id="experience">
                 <h2>Experience</h2>
-                <br>
-                <br>
+                <div class="experience-item">
+                    <h3>Product Management Intern</h3>
+                    <p class="experience-company">EqualLevel</p>
+                    <p class="experience-date">June 2023 - Dec 2023 | Rockville, MD</p>
+                    <ul>
+                        <li>Benchmarked, designed, and created expense reimbursement HTML forms</li>
+                        <li>Specced bugs and improvements and collaborated with the development team to improve the EqualLevel eProcurement Marketplace and enhance user experience
+                        </li>
+                        <li>Participated in client meetings to help familiarize them with the software</li>
+                        <li>Wrote documentation for a new web product for clients to store purchase information records
+                        </li>
+                        <li>Conducted regression testing in Jira for a new patch release</li>
+                    </ul>
+                </div>
 
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-
-                <br>
+                <div class="experience-item">
+                    <h3>Head Math Coach</h3>
+                    <p class="experience-company">Math Success Program @ UMD</p>
+                    <p class="experience-date">Jan 2021 - Present | College Park, MD</p>
+                    <ul>
+                        <li>Coached undergraduates in various math courses</li>
+                        <li>Analyzed visitor feedback data to develop the content of monthly tutor trainings led by HMCs
+                        </li>
+                        <li>Participated in weekly meetings with supervisors</li>
+                        <li>Conducted observations and provided feedback to Math Coaches
+                        </li>
+                        <li>Conducted regression testing in Jira for a new patch release</li>
+                    </ul>
+                </div>
             </section>
+              
 
-            <section id="interests">
-                <h2>Interests</h2>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-
+            <section id="project">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Professor Nelson Fanpage</h3>
+                    <img src="/proj-imgs/nelson-fp.png" alt="Professor Nelson Fanpage">
+                    <p>This webpage is a fanpage for Professor Nelson, our Web Application Development with JS (CMSC335) professor.
+                        I developed this page with a partner for our final CMSC335 project. The webpage allows people to post notes 
+                        and drawings to a collection dedicated to our professor. Users can also view all notes written for Professor Nelson.
+                    </p>
+                    <p>The webpage utilizes HTML, CSS, Node.js, MongoDB, RESTful API.
+                    </p>
+                    <a href="https://nelsonfanpage.cyclic.app/" target="_blank">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Math Help Chat Room</h3>
+                    <img src="/proj-imgs/msp.png" alt="Math Help Chat Room">
+                    <p>This chat room was created for students to ask Math Success Program tutors math-related questions.
+                        The chat room was developed initially for students who could not go to in-person coaching due to 
+                        COVID-19 concerns.
+                    </p>
+                    <p>The chat room utilizes Firebase server hosting, Node.js</p>
+                </div>
+                <div class="project-item">
+                    <h3>Exploration of Crime and Socioeconomic Data in Maryland Jurisdictions</h3>
+                    <p>In this project, my partner and I analyzed the relationship between crime and socioeconomic data in Maryland jurisdictions. 
+                    </p>
+                    <p>The project was coded in Python and utilizes the sklearn library</p>
+                    <a href="https://htmlpreview.github.io/?https://github.com/ykristing/CMSC320-final/blob/main/index.html">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Audio Transcription</h3>
+                    <img src="/proj-imgs/audio.png" alt="Audio Transcription Program">
+                    <p>This chat room was created during the 2020 IvyHacks Hackthon. I collaborated with two teammates to create a program that 
+                        can transcribe audio from the computer source. The transcription can be done in multiple languagues.
+                        This program was created with the idea of helping those who are hard of hearing during online classes.                    
+                    </p>
+                    <p>The program was coded in Python and utilizes the pyaudio and googletrans libraries.</p>
+                    <a href="https://www.youtube.com/watch?v=VvIHctkBbMw">View Video Demo</a>
+                </div>
             </section>
 
             <section id="contact">
                 <h2>Contact Me</h2>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-
-                <br>
-                <br>
-
-                <br>
-                <br>
-                <br>
-
+                <p>If you have any questions or want to reach out about any opportunities, feel free to contact me!</p>
+                <div class="contact-icons">
+                    <ul>
+                        <li><a href="mailto:y.kristi.ng@gmail.com"><i class="fa fa-envelope"></i> Email: y.kristi.ng@gmail.com</a></li>
+                        <li><a href="tel:+12404291535"><i class="fa fa-phone"></i> Phone: 240-429-1535</a></li>
+                        <li><a href="https://www.linkedin.com/in/kristi-ng1/"><i class="fa fa-linkedin"></i> LinkedIn: linkedin.com/in/kristi-ng1</a></li>
+                      </ul>
+                </div>
             </section>
 
+            <footer>Credit for the duck idea goes to ashtoncs on TikTok :)</footer>
             <script src="smooth-scroll.js"></script>
         </main>
         
         
         
-
-    </body>
     <img src="duckPink.gif" class="duck" alt="waddling duck">
+    </body>
+    
 </html>
