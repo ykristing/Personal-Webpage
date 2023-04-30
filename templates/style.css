@@ -16,18 +16,18 @@ body {
 /* Add a centered header with coral text */
 h1 {
     text-align: left;
-    color: #690e28;
+    color: #052519;
     margin-top: 40px;
     line-height: 80px;
     padding-left: 40px;
     padding-bottom: 10px;
     font-size: 60px;
-    border-bottom: 5px solid #f39ca2;
+    border-bottom: 5px solid #409773;
 }
 
 h2 {
     text-align: left;
-    color: #a01e43;
+    color: #0c422f;
     margin-top: 40px;
     line-height: 20px;
     padding-left: 40px;
@@ -36,7 +36,7 @@ h2 {
 
 h3 {
     text-align: left;
-    color: #5c031c;
+    color: #195a42;
     margin-top: 40px;
     line-height: 20px;
     padding-left: 40px;
@@ -46,7 +46,7 @@ h3 {
 /* Add a centered paragraph with black text */
 p {
     text-align: left;
-    color: #690e28;
+    color: #000000;
     font-size: 25px;
     margin-top: 0px;
     margin-left: 40px;
@@ -55,8 +55,8 @@ p {
 
 /* Style the navigation menu */
 nav {
-    background-color: #a7294f;
-    background-image: url('navbg.jpg');
+    background-color: #525252;
+    background-image: url('monstera1.png');
     background-size: cover;
     text-align: center;
     padding: 5px;
@@ -68,12 +68,13 @@ nav {
     position: fixed; /* make the menu position fixed */
     left: 0; /* align the menu to the left side of the screen */
     top: 0; /* align the menu to the top of the screen */
+    border-right: 3px solid #206e4e;
 }
 
 /* Style the links in the navigation menu */
 nav a {
     color: #ffffff;
-    text-shadow: 1.5px 1.5px 1px #690e28;
+    text-shadow: 2px 2px 2px #0e0608;
     text-decoration: none;
     padding: 5px;
     font-size: 30px;
@@ -81,12 +82,12 @@ nav a {
     margin: 0px 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgba(234, 212, 212, .8);
+    background-color: rgb(64, 151, 115, .8);
 }
 
 /* Add a hover effect to the links in the navigation menu */
 nav a:hover {
-    color: #a01e43;
+    color: #c1dacf;
 }
 
 /* Add a centered main content area */
@@ -99,7 +100,7 @@ main {
 /* Add a centered footer with black text */
 footer {
     text-align: left;
-    color: #3d0213;
+    color: #727272;
     margin-top: 0;
     line-height: 80px;
     margin-left: 30px;
@@ -137,14 +138,14 @@ footer {
 }
 
 #about {
-    background-color: #ffffff;
+    background-color: #f3f2f2;
     padding-top: 30px;
     padding-bottom: 0px;
 }
 
 /* EXPERIENCE CSS*/
 #experience {
-    background-color: #fcf0f3;
+    background-color: rgb(255, 255, 255);
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -180,7 +181,7 @@ ul {
   
 /* PROJECT CSS*/
 #project {
-    background-color: #ffffff;
+    background-color: #f3f2f2;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -218,7 +219,7 @@ ul {
     display: inline-block;
     padding: 10px 20px;
     margin-left: 41px;
-    background-color: #a7294f;
+    background-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -226,12 +227,12 @@ ul {
 }
 
 .project-item a:hover {
-    background-color: #c75678;
+    background-color: #409773;
 }
 
 /* CONTACT CSS*/
 #contact {
-    background-color: #fcf0f3;
+    background-color: #ffffff;
     padding-top: 30px;
     padding-bottom: 0px;
 }
@@ -240,7 +241,7 @@ ul {
     list-style-type: none;
 }
 .contact-icons a {
-    color: #4d0418;
+    color: #000000;
     display: inline-block;
     font-size: 24px;
     margin-right: 10px;
@@ -249,7 +250,7 @@ ul {
 }
   
 .contact-icons a:hover {
-    color: #751831;
+    color: #409773;
 }
   
 .fa {
