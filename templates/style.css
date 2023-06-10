@@ -216,6 +216,7 @@ ul {
 }
 
 .project-item p {
+    margin-top: 5px;
     margin-bottom: 20px;
     font-size: 20px;
     margin-right: 500px;
