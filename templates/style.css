@@ -139,12 +139,14 @@ footer {
 
 #about {
     background-color: #f3f2f2;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 0px;
+    
 }
 
 #about p{
     margin-right: 100px;
+    font-size: 21px;
 }
 
 /* EXPERIENCE CSS*/
@@ -157,7 +159,7 @@ footer {
 .experience-item {
     padding-top: 0px;
     margin-bottom: 25px;
-    margin-left: 10px;
+    
 }
 
 .experience-item h3 {
@@ -186,7 +188,7 @@ ul {
 /* PROJECT CSS*/
 #project {
     background-color: #f3f2f2;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -247,7 +249,7 @@ ul {
 
 #publications p {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 350px;
 }
 
@@ -269,7 +271,7 @@ ul {
 /* CONTACT CSS*/
 #contact {
     background-color: #f3f2f2;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 0px;
 }
 
