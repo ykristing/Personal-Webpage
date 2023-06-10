@@ -198,8 +198,7 @@ ul {
 }
 
 .project-item {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .project-item img {
@@ -240,7 +239,7 @@ ul {
 #publications {
     background-color: #ffffff;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #publications h3 {
@@ -276,13 +275,20 @@ ul {
     padding-bottom: 0px;
 }
 
+#contact p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    margin-right: 350px;
+}
+
 .contact-icons ul {
     list-style-type: none;
 }
+
 .contact-icons a {
     color: #000000;
     display: inline-block;
-    font-size: 24px;
+    font-size: 21px;
     margin-right: 10px;
     margin-bottom: 20px;
     text-decoration: none;
