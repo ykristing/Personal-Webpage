@@ -10,7 +10,7 @@ body {
         "nav main";
     margin: 0;
 	padding: 0;
-    
+    font-size: 10;
 }
 
 /* headers */
@@ -68,6 +68,7 @@ nav {
     position: fixed; /* make the menu position fixed */
     left: 0; /* align the menu to the left side of the screen */
     top: 0; /* align the menu to the top of the screen */
+    width: 15%;
     border-right: 3px solid #206e4e;
 }
 
@@ -77,7 +78,7 @@ nav a {
     text-shadow: 2px 2px 2px #0e0608;
     text-decoration: none;
     padding: 5px;
-    font-size: 30px;
+    font-size: 150%;
     font-weight: bold;
     margin: 0px 10px;
     padding-left: 20px;
@@ -145,7 +146,7 @@ footer {
 }
 
 #about p{
-    margin-right: 100px;
+    margin-right: 10%;
     font-size: 21px;
 }
 
@@ -183,6 +184,8 @@ ul {
     margin-top: 10px;
     margin-left: 30px;
     line-height: 1.5;
+    margin-right: 30%;
+    font-size: 18px;
 }
   
 /* PROJECT CSS*/
@@ -202,7 +205,8 @@ ul {
 }
 
 .project-item img {
-    height: 500px;
+    max-width: 70%;
+    height: auto;
     margin-left: 41px;
     margin-top: 20px;
     border: 3px solid #000000;
@@ -218,7 +222,7 @@ ul {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 20px;
-    margin-right: 500px;
+    margin-right: 20%;
 }
 
 .project-item a {
@@ -250,7 +254,7 @@ ul {
 #publications p {
     margin-bottom: 20px;
     font-size: 20px;
-    margin-right: 350px;
+    margin-right: 30%;
 }
 
 #publications a {
