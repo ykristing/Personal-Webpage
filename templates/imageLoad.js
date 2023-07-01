@@ -12,5 +12,4 @@ function preloadImages(){
 
 }
 
-
 preloadImages("monstera1.png", "proj-imgs/audio.png", "proj-imgs/msp.png", "proj-imgs/nelson-fp.png", "proj-imgs/socioeconomic.png");
