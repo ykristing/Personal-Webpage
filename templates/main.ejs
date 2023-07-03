@@ -10,7 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/f277ce679b.js" crossorigin="anonymous"></script>
-        <script src="imageLoad.js"></script>
+        <script src="/js/imageLoad.js"></script>
+        <script src="/js/topButton.js"></script>
     </head>
     <body>
         
@@ -24,6 +25,7 @@
   
         
         <main>
+            <button onclick="topFunction()" id="topBtn" title="Back to Top">Back to Top</button>
             <header>
                 <h1>
                     Kristi Ng
@@ -152,4 +154,9 @@
         
     </body>
     
+    <div id="preload">
+        <img src="http://domain.tld/image-01.png" width="1" height="1" alt="Image 01" />
+        <img src="http://domain.tld/image-02.png" width="1" height="1" alt="Image 02" />
+        <img src="http://domain.tld/image-03.png" width="1" height="1" alt="Image 03" />
+    </div>
 </html>
