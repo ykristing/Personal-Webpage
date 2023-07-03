@@ -3,14 +3,14 @@ body {
     background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     display: grid;
-    grid-template-columns: 1fr calc(100% - 225px);;
-    grid-template-rows: 1fr 3fr ;
+    grid-template-columns: calc(16%) calc(84%);
+
     grid-template-areas:
-        "space main"
+
         "nav main";
     margin: 0;
 	padding: 0;
-    font-size: 10;
+    font-size: 1rem;
 }
 
 /* headers */
@@ -21,7 +21,7 @@ h1 {
     line-height: 80px;
     padding-left: 40px;
     padding-bottom: 10px;
-    font-size: 60px;
+    font-size: 370%;
     border-bottom: 5px solid #409773;
 }
 
@@ -31,7 +31,7 @@ h2 {
     margin-top: 40px;
     line-height: 20px;
     padding-left: 40px;
-    font-size: 40px;
+    font-size: 250%;
 }
 
 h3 {
@@ -40,16 +40,17 @@ h3 {
     margin-top: 40px;
     line-height: 20px;
     padding-left: 40px;
-    font-size:20px;
+    font-size:200%;
 }
 
 /* Add a centered paragraph with black text */
 p {
     text-align: left;
     color: #000000;
-    font-size: 25px;
+    font-size: 155%;
     margin-top: 0px;
     margin-left: 40px;
+    margin-bottom: 3%;
     line-height: 1.5;
 }
 
@@ -59,7 +60,7 @@ nav {
     background-image: url('monstera1.png');
     background-size: cover;
     text-align: center;
-    padding: 5px;
+    padding: 0.5%;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -68,8 +69,10 @@ nav {
     position: fixed; /* make the menu position fixed */
     left: 0; /* align the menu to the left side of the screen */
     top: 0; /* align the menu to the top of the screen */
+    
     width: 15%;
     border-right: 3px solid #206e4e;
+    overflow-x: auto;
 }
 
 /* Style the links in the navigation menu */
@@ -78,12 +81,12 @@ nav a {
     text-shadow: 2px 2px 2px #0e0608;
     text-decoration: none;
     padding: 5px;
-    font-size: 150%;
+    font-size: 156%;
     font-weight: bold;
-    margin: 0px 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0% 5%;
+    box-sizing: border-box;
     background-color: rgb(64, 151, 115, .8);
+    
 }
 
 /* Add a hover effect to the links in the navigation menu */
@@ -93,8 +96,8 @@ nav a:hover {
 
 /* Add a centered main content area */
 main {
-    padding: 15px;
-    margin-left: 12px;
+    padding: 1%;
+    margin-left: 1%;
     grid-area: main;
 }
 
@@ -140,21 +143,22 @@ footer {
 
 #about {
     background-color: #f3f2f2;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    padding-top: 1.3%;
+    padding-bottom: 1%;
     
 }
 
 #about p{
-    margin-right: 10%;
-    font-size: 21px;
+    margin-right: 4%;
+    font-size: 133%;
+    margin-bottom: 2.5%;
 }
 
 /* EXPERIENCE CSS*/
 #experience {
     background-color: rgb(255, 255, 255);
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
 }
 
 .experience-item {
@@ -169,14 +173,15 @@ footer {
 }
 
 .experience-date {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 17px;
-    line-height: 0;
+    
 }
 
 .experience-company {
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: 5px;
+    font-size: 23px;
     line-height: 1;
 }
 
@@ -220,9 +225,9 @@ ul {
 
 .project-item p {
     margin-top: 5px;
-    margin-bottom: 20px;
     font-size: 20px;
     margin-right: 20%;
+    margin-bottom: 1.5%;
 }
 
 .project-item a {
@@ -234,6 +239,7 @@ ul {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
+    font-size: 100%;
 }
 
 .project-item a:hover {
@@ -259,13 +265,14 @@ ul {
 
 #publications a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1% 1.5%;
     margin-left: 41px;
     background-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
+    font-size: 100%
 }
 
 #publications a:hover {
