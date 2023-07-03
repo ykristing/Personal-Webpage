@@ -146,7 +146,7 @@ footer {
     display: inline-block;
     padding: 1% 1.5%;
     margin-left: 41px;
-    background-color: #000000;
+    background-color: #1d4a37;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -166,7 +166,7 @@ footer {
 }
 
 #about p {
-    margin-right: 4%;
+    margin-right: 10%;
     font-size: 133%;
     margin-bottom: 2.5%;
 }
@@ -207,7 +207,7 @@ ul {
     margin-left: 30px;
     line-height: 1.5;
     margin-right: 30%;
-    font-size: 18px;
+    font-size: 120%;
 }
   
 /* PROJECT CSS*/
@@ -260,7 +260,7 @@ ul {
 #publications p, #transcript p {
     margin-bottom: 20px;
     font-size: 20px;
-    margin-right: 30%;
+    margin-right: 20%;
 }
 
 #transcript a {
@@ -277,7 +277,7 @@ ul {
 #contact p {
     margin-bottom: 20px;
     font-size: 21px;
-    margin-right: 350px;
+    
 }
 
 .contact-icons ul {
